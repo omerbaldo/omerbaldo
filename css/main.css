@@ -39,6 +39,12 @@ title{
 	background-image: url('https://yt3.ggpht.com/-rqi1V9uXWAE/AAAAAAAAAAI/AAAAAAAAAAA/i_ArQsY1HQQ/s900-c-k-no-mo-rj-c0xffffff/photo.jpg');
 
 }
+.socialmedia{
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
 .thumbnail{
 	display: flex;
 	height: 120px;
