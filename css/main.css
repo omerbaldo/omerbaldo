@@ -96,9 +96,24 @@ header p {
   margin: 0;
   color: #fff;
 }
+.me {
+ border-radius: 50%;
+width:56px;
+height:75px ;
+margin-left: -15px;
+}
 
 .jumbotron h3 {
   margin: 0 0 20px;
+  color: #fff;
+}
+
+.jumbotron h4 {
+  margin: 0 0 10px;
+  color: #fff;
+}
+.jumbotron h5 {
+  margin: 0 0 5px;
   color: #fff;
 }
 
@@ -114,19 +129,19 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+  color: #0000FF;
   text-shadow: none;
   background-color: #ffffff;
 }
 
 .btn.btn-primary:hover {
-  color: #ffffff;
+  color: #DC143C;
   background-color: #fbd1d5;
 }
 
 .btn-secondary {
   background-color: #E8DFE0;
-  color: #ffffff;
+  color: #0000FF;
   margin: 0 0 30px;
 }
 
