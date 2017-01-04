@@ -1,0 +1,370 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width"
+			],
+			[
+				"d_r",
+				"d_rIndex"
+			],
+			[
+				"para",
+				"parallel"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/amalkheir/Desktop/personalSite/base.html",
+			"settings":
+			{
+				"buffer_size": 4597,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 209,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/amalkheir/Desktop/personalSite/css/main.css",
+			"settings":
+			{
+				"buffer_size": 1986,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/amalkheir/Desktop/personalSite",
+		"/Users/amalkheir/Desktop/personalSite/css",
+		"/Users/amalkheir/Desktop/personalSite/js"
+	],
+	"file_history":
+	[
+		"/Users/amalkheir/Desktop/personalSite/js/main.js",
+		"/Users/amalkheir/Desktop/personalSite/main.css",
+		"/Users/amalkheir/Desktop/personalSite/main.js",
+		"/Users/amalkheir/Desktop/personalSite/css/main.css",
+		"/Users/amalkheir/Desktop/personalSite/base.html",
+		"/Users/amalkheir/Desktop/base.html",
+		"/Users/amalkheir/Desktop/Toggle.js",
+		"/Users/amalkheir/Desktop/Mood.js",
+		"/Users/amalkheir/Desktop/style.css",
+		"/Users/amalkheir/Desktop/index.html",
+		"/Users/amalkheir/Desktop/Talker.js",
+		"/Users/amalkheir/Desktop/Button.js",
+		"/Users/amalkheir/Desktop/testWebsite/ProfilePage.js",
+		"/Users/amalkheir/Desktop/testWebsite/index.html",
+		"/Users/amalkheir/Desktop/testWebsite/NavBar.js",
+		"/Users/amalkheir/Desktop/testWebsite/readme.md",
+		"/Users/amalkheir/Desktop/reactjs/readme.md",
+		"/Users/amalkheir/Desktop/readme.md",
+		"/Users/amalkheir/Documents/J_Query.txt",
+		"/Users/amalkheir/Desktop/interactive to do /index.html",
+		"/Users/amalkheir/Desktop/interactive to do /css/stylesheet.css",
+		"/Users/amalkheir/Desktop/stylesheet.css",
+		"/Users/amalkheir/Desktop/stylesheet.html",
+		"/Users/amalkheir/Desktop/script.js",
+		"/private/var/folders/2c/bnpsgxp96218n6h3qh7smj380000gn/T/46e9483c-9736-458d-b911-1745a44c3083/.autofs/ilab/ilab_users/osb5/printprog/proj4/finalProject/spmv_seqGPUOne.c",
+		"/private/var/folders/2c/bnpsgxp96218n6h3qh7smj380000gn/T/46e9483c-9736-458d-b911-1745a44c3083/.autofs/ilab/ilab_users/osb5/printprog/proj4/finalProject/mmio.c",
+		"/private/var/folders/2c/bnpsgxp96218n6h3qh7smj380000gn/T/147c58d2-5b6d-4205-ab3b-69a87a16636c/.autofs/ilab/ilab_users/osb5/printprog/proj4/finalProject/mmio.h",
+		"/Users/amalkheir/Downloads/spmv_seqGPUOne.c",
+		"/Users/amalkheir/Desktop/finalProject/spmv_seqGPUOne.c",
+		"/Users/amalkheir/Desktop/finalProject/utils.h",
+		"/Users/amalkheir/Desktop/finalProject/spmv_seqGPUOne.cu.c",
+		"/Users/amalkheir/Desktop/main.js",
+		"/Users/amalkheir/Desktop/styles.css",
+		"/Users/amalkheir/Desktop/spmv_N_thread_dynamic.c",
+		"/Users/amalkheir/Desktop/spmv_N_thread_newalg.c",
+		"/Users/amalkheir/Desktop/spmv_N_thread_static.c",
+		"/Users/amalkheir/Desktop/proj3/spmv_N_thread_newalg.c",
+		"/Users/amalkheir/Desktop/proj3/spmv_N_thread_dynamic.c",
+		"/Users/amalkheir/Desktop/proj3/spmv_N_thread_static.c",
+		"/Users/amalkheir/Desktop/proj3/spmv_seq.c",
+		"/Users/amalkheir/Desktop/proj3/utils.c",
+		"/Users/amalkheir/Downloads/Chess-App-master/app/src/main/java/cs213/android/chess/MainActivity.java",
+		"/Users/amalkheir/Desktop/finalProject/git/androidapp59/app/src/main/java/com/example/psantanakroh/layouts/MainActivity.java",
+		"/Users/amalkheir/Desktop/finalProject/git/androidapp59/app/src/main/java/com/example/psantanakroh/layouts/NewGameActivity.java",
+		"/Users/amalkheir/Desktop/finalProject/git/androidapp59/app/src/main/res/layout/board_main.xml",
+		"/Users/amalkheir/Desktop/front end/git/androidapp59/app/src/main/java/com/example/psantanakroh/layouts/backend/src/app.java",
+		"/Users/amalkheir/Desktop/front end/git/androidapp59/app/src/main/res/layout/board_main.xml",
+		"/Users/amalkheir/Desktop/front end/git/androidapp59/app/src/main/java/com/example/psantanakroh/layouts/NewGameActivity.java",
+		"/Users/amalkheir/Desktop/front end/git/androidapp59/app/src/main/java/com/example/psantanakroh/layouts/MainActivity.java",
+		"/Users/amalkheir/Desktop/OMER/SOFTMETH/front end/git/androidapp59/app/src/main/java/com/example/psantanakroh/layouts/backend/src/app.java",
+		"/Users/amalkheir/Desktop/OMER/SOFTMETH/front end/git/androidapp59/app/src/main/java/com/example/psantanakroh/layouts/NewGameActivity.java",
+		"/Users/amalkheir/Desktop/OMER/SOFTMETH/front end/git/androidapp59/app/src/main/res/layout/board_main.xml",
+		"/Users/amalkheir/Desktop/OMER/SOFTMETH/front end/git/androidapp59/app/src/main/res/layout/activity_main.xml",
+		"/Users/amalkheir/Desktop/OMER/SOFTMETH/front end/git/androidapp59/app/src/main/res/layout/content_new_game.xml",
+		"/Users/amalkheir/Desktop/OMER/SOFTMETH/front end/git/androidapp59/app/src/main/res/layout/old_main.xml",
+		"/Users/amalkheir/Desktop/OMER/SOFTMETH/front end/git/androidapp59/app/src/main/res/layout/activity_new_game.xml",
+		"/Users/amalkheir/Desktop/OMER/SOFTMETH/front end/git/androidapp59/app/src/main/java/com/example/psantanakroh/layouts/MainActivity.java"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"color",
+			"class",
+			"clock",
+			"false",
+			"true",
+			"bool",
+			"argv[2]",
+			"argv[3]",
+			"malloc",
+			"coordrow",
+			"tmp",
+			"M"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/amalkheir/Desktop/personalSite/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2061,
+								2061
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 610.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/amalkheir/Desktop/personalSite/css/main.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1986,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1334,
+								1339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 933.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "site.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/finalProject/spmv_seqGPUOne.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
