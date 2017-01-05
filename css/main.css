@@ -36,7 +36,6 @@ body {
 }
 
 title{
-	background-image: url('https://yt3.ggpht.com/-rqi1V9uXWAE/AAAAAAAAAAI/AAAAAAAAAAA/i_ArQsY1HQQ/s900-c-k-no-mo-rj-c0xffffff/photo.jpg');
 
 }
 .socialmedia{
@@ -89,6 +88,52 @@ header p {
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
+/*https://s-media-cache-ak0.pinimg.com/originals/c6/df/a2/c6dfa22150790c670c988c5196f6ba0e.gif*/
+
+.aboutmejumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('../img/collage.png');
+
+  background-size: cover;
+  color: #ffffff;
+  height: 300px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.skillsjumbo {
+  display: flex;
+  align-items: center;
+  background-image: url('../img/skills.jpg');
+
+  background-size: cover;
+  color: #ffffff;
+  height: 300px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+
+.skillsjumbo h1 {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  color: #fff;
+}
+
+
+
+
+.aboutmejumbotron h1 {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  color: #fff;
+}
+
 
 .jumbotron h2 {
   font-size: 60px;
