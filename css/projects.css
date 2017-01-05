@@ -1,0 +1,83 @@
+.element hr{
+
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+.container .vw {
+	  margin: auto;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  position: block;
+	  width: 800px;
+	  height:300px;
+      background:grey;
+      background-image: url('../img/prj/vw.jpg');
+      background-repeat: no-repeat;
+         background-size:100%;
+
+}
+.container .chess {
+	  margin: auto;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  position: block;
+	  width: 800px;
+	  height:300px;
+      background:grey;
+      background-image: url('../img/prj/chess.png');
+      background-repeat: no-repeat;
+         background-size:100%;
+
+}
+.container .AA {
+	  margin: auto;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  position: block;
+	  width: 800px;
+	  height:300px;
+      background:grey;
+      background-image: url('../img/prj/si.png');
+      background-repeat: no-repeat;
+         background-size:100%;
+}
+.container .RN {
+	  margin: auto;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  position: block;
+	  width: 800px;
+	  height:300px;
+      background:grey;
+      background-image: url('../img/prj/1.png');
+      background-repeat: no-repeat;
+         background-size:100%;
+
+}
+.container .dad {
+	  margin: auto;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  position: block;
+	  width: 800px;
+	  height:300px;
+      background:grey;
+      background-image: url('../img/prj/sb.jpg');
+      background-repeat: no-repeat;
+         background-size:100%;
+
+}
