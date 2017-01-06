@@ -21,10 +21,10 @@ function imageSwitch(){
 		$('.RN').css('backgroundImage','url(img/prj/2.png)');
 		i++;
 	}else if(i==2){
-		$('.RN').css('backgroundImage','url(img/prj/3.png)');
+		$('.RN').css('backgroundImage','url(img/prj/4.png)');
 		i++;
 	}else if(i==3){
-    	$('.RN').css('backgroundImage','url(img/prj/4.png)');
+    	$('.RN').css('backgroundImage','url(img/prj/3.png)');
     	i=0;
 	}
 
