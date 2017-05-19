@@ -37,23 +37,108 @@
 
   <body>
 
-    <header class="container">
-    <div class="row">
-          <a href ="index.html"><img src= "img/me.jpg" class="me"/></a>
 
-         <h1 class="col-sm-4">Omer Baldo</h1>
 
-       <!--<img src="https://yt3.ggpht.com/-rqi1V9uXWAE/AAAAAAAAAAI/AAAAAAAAAAA/i_ArQsY1HQQ/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" class ="thumbnail"/>-->
-        <nav class="col-sm-8 text-right">
-          <a href ="aboutme.html"><p class ="nb">About</p></a>
-          <a href ="projects.html"><p class ="nb">Projects</p></a>
-          <a href ="skills.html"><p class ="nb">Skills</p></a>
-          <a href="gym.html"><p class ="nb" >Gym</p></a>
+
+
+<style>
+  body {margin:0;}
+
+  .topnav {
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: right;
+    display: block;
+    color: rgb(0, 0, 185);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 800px) {
+    .topnav a:not(false) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+  }
+</style>
+
+
+
+
+<table style="width: 90%;">
+  <tr>
+  <th> <a href ="index.html"><img src= "img/me.jpg" class="me"/></a> </th>
+  <th><h1>Omer Baldo</h1></th>
+
+  <th class="col-sm-8 text-right">
+
+    <div class="topnav" id="myTopnav">
+
           <a href="resume.html"><p class ="nb" >Resume</p></a>
 
-        </nav>
+          <a href ="projects.html"><p class ="nb">Projects</p></a>
+
+          <a href="gym.html"><p class ="nb" >Gym</p></a>
+
+          <a href ="skills.html"><p class ="nb">Skills</p></a>
+
+      <a href ="aboutme.html"><p class ="nb">About</p></a>
+
+
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
-  </header>
+
+
+  </th>
+
+
+  </tr>
+
+</table>
+</br></br>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+
 
 
 
