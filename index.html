@@ -1,313 +1,688 @@
-
 <!DOCTYPE html>
-<html>
-    <head>
-       <!--Stuff for Search Engines -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <meta name="description" content="This is Omer's personal site.">
-        <meta name="keywords" content="Omer,Baldo,personal,site,code">
-        <meta name="author" content="Omer Suliman Baldo">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!--Icon-->
+    <title>Omer Baldo</title>
+    <link rel="shortcut icon" href="img/portrait3.jpg" />
 
-         <div class="row">
-
-             <title>Omer</title>
-         </div>
-
-
-
-        <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-        <link rel="icon" href="img/icon.png">
-  		  <meta charset="utf-8"/>
-
-        <!--Libraries-->
-           <!--CSS & Bootstrap-->
-    		  <link rel="stylesheet" type="text/css" href="css/main.css">
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-          <!--Javascript and JQuery-->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      
-          <script type='text/javascript' src='js/main.js'></script>
-
-
-    </head>
-
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Add custom CSS here -->
+    <link href="css/slidefolio.css" rel="stylesheet">
+	<!-- Font Awesome -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  </head>
   <body>
+    <!-- Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text">
+	  <!--<img class="img-rounded" alt="Company Logo" src="./img/logo.jpg"/>-->
+        <h2><em>Omer Baldo</em></h2>
+        <h4><em>Rutgers Student, Rugby Player, Teacher </em></h4>
 
-
-
-
-
-
-<style>
-  body {margin:0;}
-
-  .topnav {
-    overflow: hidden;
-  }
-
-  .topnav a {
-    float: right;
-    display: block;
-    color: rgb(0, 0, 185);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .topnav .icon {
-    display: none;
-  }
-
-  @media screen and (max-width: 800px) {
-    .topnav a:not(false) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-
-  @media screen and (max-width: 800px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-
-  }
-</style>
-
-
-
-
-<table style="width: 90%;">
-  <tr>
-  <th> <a href ="index.html"><img src= "img/me.jpg" class="me"/></a> </th>
-  <th><h1>Omer Baldo</h1></th>
-
-  <th class="col-sm-8 text-right">
-
-    <div class="topnav" id="myTopnav">
-
-          <a href="resume.html"><p class ="nb" >Resume</p></a>
-
-          <a href ="projects.html"><p class ="nb">Projects</p></a>
-
-          <a href="gym.html"><p class ="nb" >Gym</p></a>
-
-          <a href ="skills.html"><p class ="nb">Skills</p></a>
-
-      <a href ="aboutme.html"><p class ="nb">About</p></a>
-
-
-      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		 <ul class="list-inline">
+              
+              <!--<li><a href = "https://www.facebook.com/omer.baldo"><i class="fa fa-facebook fa-3x"></i></a></li>
+              <li><a href = "https://github.com/omerbaldo"><i class="fa fa-github fa-3x"></i></a></li>
+			  <li><a href="https://www.linkedin.com/in/omerbaldo/"><i class="fa fa-linkedin fa-3x"></i></a></li>-->
+            </ul>	
+			<br>
+			<a href="#about" class="btn btn-top"> What can I do for you?</a>
+      </div>
     </div>
-
-
-  </th>
-
-
-  </tr>
-
-</table>
-</br></br>
-
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-  <section class="jumbotron">
-     <div class="container">
-        <div class="row text-center">
-
-          <h4>Hey, I'm an independent web & software devloper from New Brunwick, New Jersey. I work primarily with Android Studios & Django.</h4>
-
-          <p></p>
-          <a class="btn btn-primary" href="aboutme.html" role="button">Come Learn About Me</a>
+    <!-- /Header Area -->
+	  <div id="nav">
+    <!-- Navigation -->
+    <nav class="navbar navbar-new" role="navigation">
+   <div class="container">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobilemenu">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+	<a href="#" class="navbar-brand">Omer Baldo</a>
+  </div>
+  <div class="collapse navbar-collapse" id="mobilemenu">
+
+	  <ul class="nav navbar-nav navbar-right text-center">
+	    <li><a href="#top"><i class="service-icon fa fa-home"></i>&nbsp;Home</a></li>
+        <li><a href="#about"><i class="service-icon fa fa-info"></i>&nbsp;About</a></li>
+        <li><a href="#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Services</a></li>
+        <li><a href="#portfolio"><i class="service-icon fa fa-camera"></i>&nbsp;Portfolio</a></li>
+        <li><a href="#contact"><i class="service-icon fa fa-envelope"></i>&nbsp;Contact</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+    <!-- /Navigation -->
+</div>	
+    <!-- About -->
+    <div id="about" class="about_us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>What can I do for you ?</h2>
+            <p class="lead">After talking to multiple senior level developers and hiring managers I have discovered the biggest problems they face, when hiring a new developer, is finding someone who is coachable and understand their Computer Science fundamentals. 
+            </p>
+<p class="lead">
+I pride myself in knowing that my most redeeming qualities are thriving in a fast paced environment, and implementing what I learned in class on real world applications. 
+</p>
+
+<p class="lead">
+<b>
+I quickly produce data driven web pages that span across multiple platforms 
+</b>
+</p>
+<p class="lead">
+
+I thrive in fast paced environments and learn new concepts quickly
+</p>
+<p class="lead">
+<b>
+I implement algorithms that can predict trends in big businesses 
+</b>
+</p>
+<p class="lead">
+I understand how to implement Computer Science Fundamentals
+</p>
+
+
+          </div>
+        </div>
+	  </div>
+    </div>
+    <!-- /About -->
+    <!-- Services -->
+    <div id="services" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>My Skills</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-camera-retro fa-3x"></i>
+              <h3>View</h3>
+              <p>
+                HTML 5</br>
+                J-Query</br>
+                Bootstrap</br>
+                CSS</br>
+
+               </p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="service-item">
+			<i class="service-icon fa fa-building fa-3x"></i>
+              <h3>Model</h3>
+              <p>
+                
+                mySQL</br>
+                XML</br>
+                Elastic Search</br>
+                NoSQL</br>
+
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-globe fa-3x"></i>
+              <h3>Controller</h3>
+              <p>
+              Python </br>
+              Java</br>
+              C</br>
+              Javascript
+              </br>
+            </ul></p>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-
-
-
-
-
-
-  </body>
-
-
- <footer class="container">
-    <div class="row">
-         <p class="col-sm-4">Built with JQuery, Bootstrap, & GitHub Pages</p>
-
-
-      <ul class="col-sm-8">
-        
-        <li class="col-sm-1">
-        <a href="mailto:omer.s.baldo@gmail.com" target="_top">
-          <img src="img/social_media/email.png" class = "socialmedia">
-          </a>
-        </li>
-        <li class="col-sm-1">
-        <a href="https://www.linkedin.com/in/omerbaldo
-">
-          <img src="img/social_media/li.png" class = "socialmedia">
-          </a>
-        </li>
-    
-        <li class="col-sm-1">
-          <a href = "https://github.com/omerbaldo"><img src="img/social_media/github.png" class = "socialmedia"></a>
-        </li>
-        <li class="col-sm-1">
-          <a href ="https://www.facebook.com/omer.baldo"><img src="img/social_media/facebook.png" class = "socialmedia"></a>
-        </li>
-      
-      </ul>
-
-
     </div>
-  </footer>
+    <!-- /Services -->
 
-</html>
+    <!-- Portfolio -->
+    <div id="portfolio" class="portfolio">
+    <div class="container">
+    <div class="row push50">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>What I've Done</h2>
+			<h3>
+			<span class="filter label label-default" data-filter="all">ALL</span>
+      <p></p>
+	<span class="filter label label-default" data-filter="bw"> Projects </span>
+  <p></p>
+	<span class="filter label label-default" data-filter="nature"> Academics </span>
+    <p></p>
+
+	<span class="filter label label-default" data-filter="portraits"> Extracurricular </span>
+	</h3>
+            <hr>
+          </div>
+        </div>
+		
+		<div class="row">
+		
+		<div class="gallery">
+		
+    		  <ul id="Grid" class="gcontainer">
+    		   
+            <!--Project. runotes site-->
+            <li class="col-md-4 col-sm-4 col-xs-12 mix bw" data-cat="graphics">
+              <a data-toggle="modal" data-target="#portrait1" class="mix-cover">
+                <img class="horizontal" src="grid/runotes.jpg" alt="placeholder">
+      		      <span class="overlay"><span class="valign"></span><span class="title">runotes site</span></span>
+              </a>                
+      		  </li>
 
 
-
-
-<!--
-  Make footer have social media links
-
-
-  sections will be 
-
-      Home | About | Projects | Blog | Gym |
-
-
-
-
-<div class="container"> 
-
-
-                  <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-                        <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-                        <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-                        <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-                  </ul>
-
-
-
-                 <div class="tab-content">
-                    <div id="home" class="tab-pane fade in active">
-                      <h3>HOME</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div id="menu1" class="tab-pane fade">
-                      <h3>Menu 1</h3>
-                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <div id="menu2" class="tab-pane fade">
-                      <h3>Menu 2</h3>
-                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                    </div>
-                    <div id="menu3" class="tab-pane fade">
-                      <h3>Menu 3</h3>
-                      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    </div>
-                  </div>
+<!--Project. Political Chess-->
 
 
 
+
+
+
+    		    <li class="col-md-4 col-sm-4 col-xs-12 mix bw" data-cat="graphics">
+                <a data-toggle="modal" data-target="#portrait2" class="mix-cover">
+                  <img class="horizontal" src="grid/chess.png" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span>
+                  <span class="title">Political Chess</span>
+                  </span>
+                </a>                
+      		  </li>
+
+
+
+
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix nature" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
+                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Teacher </span></span>
+        		    </a>
+      		  </li>
+      		  <li class="col-md-4 col-sm-4 col-xs-12 mix nature" data-cat="portraits">
+                <a data-toggle="modal" data-target="#portrait3" class="mix-cover">
+                  <img class="horizontal" src="grid/nm.png" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Machine Learning Project</span></span>
+        		    </a>
+      		  </li>
+
+
+
+
+
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix portraits" data-cat="portraits">
+                <a data-toggle="modal" data-target="#portrait5" class="mix-cover">
+                  <img class="horizontal" src="grid/rb.png" alt="placeholder">
+        		       <span class="overlay"><span class="valign"></span><span class="title">Rugby ! </span></span>
+        		    </a>
+      		  </li>
+
+
+
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix nature" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature" class="mix-cover">
+                  <img class="horizontal" src="grid/res.png" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Research Assistant </span></span>
+        		    </a>
+      		  </li>
+
+
+
+
+      		  <li class="col-md-4 col-sm-4 col-xs-12 mix portraits" data-cat="portrait">
+                <a data-toggle="modal" data-target="#portrait4" class="mix-cover green">
+                  <img class="vertical" src="grid/bk.jpg" alt="portrait 4">
+                  <span class="overlay"><span class="valign"></span><span class="title">Arabic</span></span>           
+        		    </a>
+      		  </li>
+
+
+          <!--Project-->
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix bw all" data-cat="portrait">
+                <a data-toggle="modal" data-target="#forest" class="mix-cover green">
+                  <img class="vertical" src="https://minusma.unmissions.org/sites/default/files/field/image/17-03-08-suliman_baldo_press_point0042.jpg" alt="Forest">
+                   <span class="overlay"><span class="valign"></span><span class="title">Dr.Baldo UN Site</span></span>                    
+        		    </a>
+      		  </li>
+
+
+
+			  <li class="col-md-4 col-sm-4 col-xs-12 mix bw all" data-cat="bw">
+                <a data-toggle="modal" data-target="#bw1" class="mix-cover green">
+                  <img class="vertical" src="grid/projectr.png" alt="Black and White">
+                   <span class="overlay"><span class="valign"></span><span class="title">Project R</span></span>                  
+        		    </a>
+      		  </li>
+    		  </ul>   
+			  
+<!-- Load Photo in Modal -->			  
+   <div class="modal fade" id="portrait1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center"><a href="http://runotes.com">runotes.com</a></h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="Portrait1" src="grid/runotes.jpg"/>
+</br>
+       <p>  
+          Done with a team of four implementing Django Web Framework, and Amazon's EBS services. RUNotes is an ongoing project which allows students to create,retrieve, upload and delete notes to the site. Currently responsible for queries and extending the Django All-Auth user object. Through Udemy.com Coding For Entrepreneurs tutorial, learned:
+          </p>
+          <p>
+          <ul>
+
+<li>Fast Querying: Elastic search search engine which is used by companies such as Netflix and Linkedin.</li>
+<li>Django Models: migrations, extending Django All-Auth user object</li>
+<li>Form Validation: Cross site verication tokens, Http Response Redirect based on wrong input</li>
+<li>Url Routing/Dynamic Webpages: Slug Fields, loading information from a JSON into a HTML document</li>
+</ul>
+       </p>
+
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="modal fade" id="portrait2" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center"><a href="https://www.youtube.com/watch?v=BY1FNwCIqtE&t=17s">Political Chess</a> </h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="Portrait1" src="grid/chess.png" style="width: 50%; height: 50%; display: block;
+    margin: 0 auto;"/>
+       </br>
+       <p>
+       Android Application created for the election. Used object oriented principals, learned from class, to design the app. Specifically I designed an UML, state machine (for different activities), and used design patterns for efficiency.
+</br>
+Game contains all features of chess with additional options for AI moves, game saving, and probability of winning.
+
+
+       </p>
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="portrait3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center"><a href="https://github.com/omerbaldo/Data-Fitting-with-Cubic-Splines">Numerical Analysis</a></h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="Portrait1" src="grid/nm.png" style="width: 50%; height: 50%; display: block;
+    margin: 0 auto;" />
+       </br>
+       <p>
+          While I was taking the course Numerical Methods, I used the cubic spline method, in Matlab, to show the relation between variables (alcohol, age, obesity) and the South African Heart disease. This was my favorite class in college and I now have interest in machine learning. 
+       </p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="portrait4" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Arabic</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="Portrait1" src="grid/bk.jpg"/>
+       </br>
+       <p>
+       In 2015 I traveled to Dubai to visit my uncle. After showing me around I became very interested in arabic culture. I was ashamed that I could not speak to my cousins in Arabic. So when I returned to college I learned up to an intermediate level of arabic.
+       </p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="portrait5" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Rugby Winger</h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="Portrait1" src="grid/rb.png" style="width: 50%; height: 50%; display: block;
+    margin: 0 auto;"/>
+       </br>
+       <p>
+       For two years in college I played as a wing for the Rutgers Rugby Club. In the first year I helped lead my team to a D3 championship. The next year I lead my team to a D1 conference championship game. The picture is me scoring against Princeton University to make the score 42-0.   
+
+       </p>
+
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="nature" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center"><a href="http://videowall.cs.rutgers.edu/">Research Assistant</a></h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="nature" src="grid/res.png"/>
+       </br>
+       <p>The Video Wall is a novel teleconferencing system developed at Rutgers University. It is currently used for distance education (for classes conducted between the Newark and New Brunswick campuses). The biggest advantage the VideoWall has over traditional video conferencing systems is that it provides a more realistic platform for a much enhanced and interactive experience, without high time lags.
+       </p>
+<p>
+Before, if a particular member in the audience wants to be a part of the Video Wall conference, they need to be physically present opposite the cameras capturing the streams from one location to the location of the opposite audience. Absentees miss out on the entire meeting. The research project began with the task to display the video wall on a browser.
+</p>
+<p>
+With a team of four, we worked on displaying the feed on a browser by creating G-Streamer pipelines and WebRTC.
+</p>
+       </p>
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="nature1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center"> Java and Python Teacher </h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="nature" src="img/nature1.jpg"/>
+
+       </br>
+       <p>
+       Working with ID-Tech Camps, I taught 8 high school students weekly on video game programming in Java and Python. In a week, I would teach students object oriented principals to create final projects. Over the course of 8 weeks I built over 48 final projects using Java Processing and Python PyGame libraries
+
+       </p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<!--sulimanbaldo.com description-->
+
+<div class="modal fade" id="forest" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center"><a href="http://sulimanbaldo.com">sulimanbaldo.com</a></h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="forest" src="https://i.ytimg.com/vi/mlgHoms8beM/maxresdefault.jpg"/>
+      </br>
+      <p>
+      Created my father a website using Django and Digital Ocean to share reports with United Nations. Site hosts an archive, blog, and contact form.
+      </p>
+
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<!--Project R-->
+<div class="modal fade" id="bw1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title text-center">Project R </h4>
+      </div>
+      <div class="modal-body">
+       <img class="thumbnail" alt="forest" src="grid/projectrr.png" style="width: 50%; height: 50%; display: block;
+    margin: 0 auto;" />
+       </br>
+       <p>
+
+       With a team of three, creating an multiplatform application that will allow users to bet against each other in order to accomplish their goals.
+
+       <ul>
+<li>Completed the MVP on Andriod which registers a user and allows friendships.</li>
+<li>Backend uses the Django REST API.</li>
+
+</ul>       </p>
+
+
+
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<!-- /Load Photo in Modal -->	
+		</div>	
+      </div>
+		</div>
+      </div>
+    <!-- /Portfolio -->
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+		<div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Contact Me</h2>
+			<hr>
+         
+
+          </div>
+          <div class="col-md-5 col-md-offset-3">
+		  <!-- contact form starts -->
+
+      
+            <form action="https://formspree.io/omer.s.baldo@gmail.com" id="contact-form" class="form-horizontal" method="POST">
+			<fieldset>
+						    <div class="form-group">
+						      <label class="col-sm-4 control-label" for="name">Your Name</label>
+						      <div class="col-sm-8">
+						        <input type="text"  placeholder="Your Name" class="form-control" name="name" id="name">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="col-sm-4 control-label" for="email">Email Address</label>
+						      <div class="col-sm-8">
+						        <input type="text" placeholder="Enter Your Email Address" class="form-control" name="email" id="email">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="col-sm-4 control-label" for="subject">Subject</label>
+						      <div class="col-sm-8">
+						        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="col-sm-4 control-label" for="message">Your Message</label>
+						      <div class="col-sm-8">
+						        <textarea placeholder="Please Type Your Message" class="form-control" name="message" id="message" rows="3"></textarea>
+						      </div>
+						    </div>
+	              <div class="col-sm-offset-4 col-sm-8">
+			            <button type="submit" class="btn btn-success">Submit</button>
+	    			      <button type="reset" class="btn btn-primary">Cancel</button>
+	        			</div>
+						</fieldset>
+						</form>
+				
+				<!-- contact form ends -->		
 
 
 
 
           </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Contact -->
 
 
 
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+           
+ <ul class="list-inline" style="margin:0 auto;">
 
 
+              <li>
+                <a href="https://www.facebook.com/omer.baldo"><i class="fa fa-facebook fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="mailto:omer.s.baldo@gmail.com?Subject=Hello" target="_top"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+                  </a>
+                </li>
+        <li><a href="https://www.linkedin.com/in/omerbaldo/"><i class="fa fa-linkedin fa-3x"></i></a></li>
+         <li><a href="https://github.com/omerbaldo"><i class="fa fa-github fa-3x"></i></a></li>
+            </ul> 
 
+           <!--<h2>Thank You</h2>-->
+           <em></em>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+	<script src="js/jquery-scrolltofixed-min.js"></script>
+	<script src="js/jquery.vegas.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.js"></script>
+	
+<!-- Slideshow Background  -->
+	<script>
+$.vegas('slideshow', {
+  delay:5000,
+  backgrounds:[
+     { src:'./img/nature1.jpg', fade:2000 },
+	 { src:'./img/bw1.jpg', fade:2000 },
+    { src:'./img/portrait1.jpg', fade:2000 },
+	 { src:'./img/portrait5.jpg', fade:2000 },
+    { src:'./img/portrait2.jpg', fade:2000 },
+    { src:'./img/portrait3.jpg', fade:2000 },
+	 { src:'./img/portrait4.jpg', fade:2000 },
+	   { src:'./img/forest.jpg', fade:2000 }
+	   
+  ]
+})('overlay', {
+src:'./img/overlay.png'
+});
 
--->
+	</script>
+<!-- /Slideshow Background -->
+
+<!-- Mixitup : Grid -->
+    <script>
+		$(function(){
+    $('#Grid').mixitup();
+      });
+    </script>
+<!-- /Mixitup : Grid -->	
+
+    <!-- Custom JavaScript for Smooth Scrolling - Put in a custom JavaScript file to clean this up -->
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+<!-- Navbar -->
+<script type="text/javascript">
+$(document).ready(function() {
+        $('#nav').scrollToFixed();
+  });
+    </script>
+<!-- /Navbar-->
+	
+  </body>
+
+</html>
